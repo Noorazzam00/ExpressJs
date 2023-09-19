@@ -1,0 +1,43 @@
+body{
+    width:1000px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.container{
+    margin: auto;
+}
+img{
+    width: 400px;
+    height: 400px;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav li a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  /* Highlight the active page in the navigation bar */
+  nav li.active {
+    font-weight: bold;
+  }
+  
